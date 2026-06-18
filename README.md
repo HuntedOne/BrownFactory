@@ -1,4 +1,4 @@
-# CodeReviewDev — a four-agent harness for reviewing & improving an existing repo
+# BrownFactory — a four-agent harness for reviewing & improving an existing repo
 
 A learn-by-reading harness that points an agent **team** at a repository that already exists,
 **audits** it, then **improves** it one change at a time — while logging everything the agents think
