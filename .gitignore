@@ -1,0 +1,12 @@
+# Sandboxes are disposable working copies of the target repo — never commit them.
+sandbox/*
+!sandbox/.gitkeep
+
+# Pointer to the active run (runtime state)
+.claude/.current-run
+
+# Keep run artifacts (audit/guidance/logs) by default — they're the record of a review.
+# If logs get large, you can ignore them instead:
+# runs/*/logs/
+
+.DS_Store
